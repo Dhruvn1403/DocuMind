@@ -278,6 +278,12 @@ export const createMessage = async (
         ? resolveEffectiveGroqModelId(model, messages)
         : model;
 
+    const docName = effectiveDocumentation.charAt(0).toUpperCase() + effectiveDocumentation.slice(1);
+    messages.unshift({
+      role: "system",
+      content: `You are an assistant specialized in ${docName} documentation. Only answer questions related to ${docName} documentation. If the question is not related to ${docName} documentation, respond with: "Please make another chat for that specific documentation to talk about it."`
+    });
+
     const result = streamText({
       model: resolveModel(provider, modelIdForProvider),
       messages,
