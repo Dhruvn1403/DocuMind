@@ -573,7 +573,7 @@ export function Chat({ conversationId }: { conversationId?: string }) {
         ) : messages.length === 0 ? (
           <div className="flex min-h-[50svh] flex-1 flex-col items-center justify-center gap-4 px-6 py-12 text-center">
             <p className="text-xs font-semibold tracking-widest text-primary uppercase">
-              DocAssist
+              DocuMind
             </p>
             <h1 className="max-w-md text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
               <span className="text-muted-foreground">Ask anything about </span>
