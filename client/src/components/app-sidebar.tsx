@@ -125,7 +125,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     compactLogoHovered &&
                       "pointer-events-none scale-100 opacity-0"
                   )}
-                  aria-label="DocAssist home"
+                  aria-label="DocuMind home"
                 >
                   <span className="text-[10px] font-semibold">DA</span>
                 </Link>
@@ -145,7 +145,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 ? open
                   ? "Close sidebar"
                   : "Open sidebar"
-                : "DocAssist home"}
+                : "DocuMind home"}
             </TooltipContent>
           </Tooltip>
 
