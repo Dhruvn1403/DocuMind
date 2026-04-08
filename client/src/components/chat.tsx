@@ -705,7 +705,7 @@ export function Chat({ conversationId }: { conversationId?: string }) {
           <ChatInput onSend={handleSend} isSending={isSending} />
         </div>
         <p className="mx-auto h-full max-w-3xl bg-background py-2 text-center text-xs text-muted-foreground">
-          DocAssist can make mistakes. Check important info.
+          DocuMind can make mistakes. Check important info.
         </p>
       </footer>
 
