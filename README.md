@@ -7,7 +7,6 @@ DocuMind is a full-stack AI-powered documentation assistant. Pick a developer do
 ---
 
 ## What It Does
-
 Instead of manually scanning through documentation, DocuMind lets you have a conversation with it. Each chat is locked to a specific documentation source, ensuring focused and accurate answers. The AI streams responses in real time, complete with code examples and source references.
 
 **Supported documentation sources:**
